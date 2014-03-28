@@ -1,0 +1,516 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B0C5B7518E3165600C7D057 /* ImpList.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B0C5B7418E3165600C7D057 /* ImpList.m */; };
+		3B1B96A218E0C3AD00151B04 /* ImpicityImp.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1B96A118E0C3AD00151B04 /* ImpicityImp.m */; };
+		3B1B96A518E0D9BB00151B04 /* ImpTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B1B96A418E0D9BB00151B04 /* ImpTableViewController.m */; };
+		3B2E349C182EE5C5001062E9 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B2E349B182EE5C5001062E9 /* AboutViewController.m */; };
+		3B2E349E182EE861001062E9 /* imp.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B2E349D182EE861001062E9 /* imp.png */; };
+		3B32809218E2E8D9003301ED /* ImpIDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B32809118E2E8D9003301ED /* ImpIDViewController.m */; };
+		3B5D99BC182EB6CC00A27E6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B5D99BB182EB6CC00A27E6C /* Foundation.framework */; };
+		3B5D99BE182EB6CC00A27E6C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B5D99BD182EB6CC00A27E6C /* CoreGraphics.framework */; };
+		3B5D99C0182EB6CC00A27E6C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B5D99BF182EB6CC00A27E6C /* UIKit.framework */; };
+		3B5D99C6182EB6CC00A27E6C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B5D99C4182EB6CC00A27E6C /* InfoPlist.strings */; };
+		3B5D99C8182EB6CC00A27E6C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5D99C7182EB6CC00A27E6C /* main.m */; };
+		3B5D99CC182EB6CC00A27E6C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5D99CB182EB6CC00A27E6C /* AppDelegate.m */; };
+		3B5D99CF182EB6CC00A27E6C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3B5D99CD182EB6CC00A27E6C /* Main.storyboard */; };
+		3B5D99D2182EB6CC00A27E6C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5D99D1182EB6CC00A27E6C /* ViewController.m */; };
+		3B5D99D4182EB6CC00A27E6C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3B5D99D3182EB6CC00A27E6C /* Images.xcassets */; };
+		3B5D99DB182EB6CD00A27E6C /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B5D99DA182EB6CD00A27E6C /* XCTest.framework */; };
+		3B5D99DC182EB6CD00A27E6C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B5D99BB182EB6CC00A27E6C /* Foundation.framework */; };
+		3B5D99DD182EB6CD00A27E6C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B5D99BF182EB6CC00A27E6C /* UIKit.framework */; };
+		3B5D99E5182EB6CD00A27E6C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3B5D99E3182EB6CD00A27E6C /* InfoPlist.strings */; };
+		3B5D99E7182EB6CD00A27E6C /* ImpicityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3B5D99E6182EB6CD00A27E6C /* ImpicityTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3B5D99DE182EB6CD00A27E6C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3B5D99B0182EB6CC00A27E6C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3B5D99B7182EB6CC00A27E6C;
+			remoteInfo = Impicity;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3B0C5B7318E3165600C7D057 /* ImpList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImpList.h; sourceTree = "<group>"; };
+		3B0C5B7418E3165600C7D057 /* ImpList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImpList.m; sourceTree = "<group>"; };
+		3B1B96A018E0C3AD00151B04 /* ImpicityImp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImpicityImp.h; sourceTree = "<group>"; };
+		3B1B96A118E0C3AD00151B04 /* ImpicityImp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImpicityImp.m; sourceTree = "<group>"; };
+		3B1B96A318E0D9BB00151B04 /* ImpTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImpTableViewController.h; sourceTree = "<group>"; };
+		3B1B96A418E0D9BB00151B04 /* ImpTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImpTableViewController.m; sourceTree = "<group>"; };
+		3B2E349A182EE5C5001062E9 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		3B2E349B182EE5C5001062E9 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		3B2E349D182EE861001062E9 /* imp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imp.png; sourceTree = SOURCE_ROOT; };
+		3B32809018E2E8D9003301ED /* ImpIDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImpIDViewController.h; sourceTree = "<group>"; };
+		3B32809118E2E8D9003301ED /* ImpIDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImpIDViewController.m; sourceTree = "<group>"; };
+		3B5D99B8182EB6CC00A27E6C /* Impicity.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Impicity.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B5D99BB182EB6CC00A27E6C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3B5D99BD182EB6CC00A27E6C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3B5D99BF182EB6CC00A27E6C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3B5D99C3182EB6CC00A27E6C /* Impicity-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Impicity-Info.plist"; sourceTree = "<group>"; };
+		3B5D99C5182EB6CC00A27E6C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3B5D99C7182EB6CC00A27E6C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3B5D99C9182EB6CC00A27E6C /* Impicity-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Impicity-Prefix.pch"; sourceTree = "<group>"; };
+		3B5D99CA182EB6CC00A27E6C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		3B5D99CB182EB6CC00A27E6C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		3B5D99CE182EB6CC00A27E6C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3B5D99D0182EB6CC00A27E6C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		3B5D99D1182EB6CC00A27E6C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		3B5D99D3182EB6CC00A27E6C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3B5D99D9182EB6CD00A27E6C /* ImpicityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImpicityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3B5D99DA182EB6CD00A27E6C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3B5D99E2182EB6CD00A27E6C /* ImpicityTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImpicityTests-Info.plist"; sourceTree = "<group>"; };
+		3B5D99E4182EB6CD00A27E6C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3B5D99E6182EB6CD00A27E6C /* ImpicityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImpicityTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3B5D99B5182EB6CC00A27E6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B5D99BE182EB6CC00A27E6C /* CoreGraphics.framework in Frameworks */,
+				3B5D99C0182EB6CC00A27E6C /* UIKit.framework in Frameworks */,
+				3B5D99BC182EB6CC00A27E6C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B5D99D6182EB6CD00A27E6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B5D99DB182EB6CD00A27E6C /* XCTest.framework in Frameworks */,
+				3B5D99DD182EB6CD00A27E6C /* UIKit.framework in Frameworks */,
+				3B5D99DC182EB6CD00A27E6C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3B5D99AF182EB6CC00A27E6C = {
+			isa = PBXGroup;
+			children = (
+				3B5D99C1182EB6CC00A27E6C /* Impicity */,
+				3B5D99E0182EB6CD00A27E6C /* ImpicityTests */,
+				3B5D99BA182EB6CC00A27E6C /* Frameworks */,
+				3B5D99B9182EB6CC00A27E6C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3B5D99B9182EB6CC00A27E6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3B5D99B8182EB6CC00A27E6C /* Impicity.app */,
+				3B5D99D9182EB6CD00A27E6C /* ImpicityTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3B5D99BA182EB6CC00A27E6C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3B5D99BB182EB6CC00A27E6C /* Foundation.framework */,
+				3B5D99BD182EB6CC00A27E6C /* CoreGraphics.framework */,
+				3B5D99BF182EB6CC00A27E6C /* UIKit.framework */,
+				3B5D99DA182EB6CD00A27E6C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B5D99C1182EB6CC00A27E6C /* Impicity */ = {
+			isa = PBXGroup;
+			children = (
+				3B5D99CA182EB6CC00A27E6C /* AppDelegate.h */,
+				3B5D99CB182EB6CC00A27E6C /* AppDelegate.m */,
+				3B5D99CD182EB6CC00A27E6C /* Main.storyboard */,
+				3B5D99D0182EB6CC00A27E6C /* ViewController.h */,
+				3B5D99D1182EB6CC00A27E6C /* ViewController.m */,
+				3B2E349A182EE5C5001062E9 /* AboutViewController.h */,
+				3B2E349B182EE5C5001062E9 /* AboutViewController.m */,
+				3B1B96A318E0D9BB00151B04 /* ImpTableViewController.h */,
+				3B1B96A418E0D9BB00151B04 /* ImpTableViewController.m */,
+				3B32809018E2E8D9003301ED /* ImpIDViewController.h */,
+				3B32809118E2E8D9003301ED /* ImpIDViewController.m */,
+				3B0C5B7318E3165600C7D057 /* ImpList.h */,
+				3B0C5B7418E3165600C7D057 /* ImpList.m */,
+				3B1B96A018E0C3AD00151B04 /* ImpicityImp.h */,
+				3B1B96A118E0C3AD00151B04 /* ImpicityImp.m */,
+				3B2E349D182EE861001062E9 /* imp.png */,
+				3B5D99D3182EB6CC00A27E6C /* Images.xcassets */,
+				3B5D99C2182EB6CC00A27E6C /* Supporting Files */,
+			);
+			path = Impicity;
+			sourceTree = "<group>";
+		};
+		3B5D99C2182EB6CC00A27E6C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B5D99C3182EB6CC00A27E6C /* Impicity-Info.plist */,
+				3B5D99C4182EB6CC00A27E6C /* InfoPlist.strings */,
+				3B5D99C7182EB6CC00A27E6C /* main.m */,
+				3B5D99C9182EB6CC00A27E6C /* Impicity-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3B5D99E0182EB6CD00A27E6C /* ImpicityTests */ = {
+			isa = PBXGroup;
+			children = (
+				3B5D99E6182EB6CD00A27E6C /* ImpicityTests.m */,
+				3B5D99E1182EB6CD00A27E6C /* Supporting Files */,
+			);
+			path = ImpicityTests;
+			sourceTree = "<group>";
+		};
+		3B5D99E1182EB6CD00A27E6C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3B5D99E2182EB6CD00A27E6C /* ImpicityTests-Info.plist */,
+				3B5D99E3182EB6CD00A27E6C /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3B5D99B7182EB6CC00A27E6C /* Impicity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B5D99EA182EB6CD00A27E6C /* Build configuration list for PBXNativeTarget "Impicity" */;
+			buildPhases = (
+				3B5D99B4182EB6CC00A27E6C /* Sources */,
+				3B5D99B5182EB6CC00A27E6C /* Frameworks */,
+				3B5D99B6182EB6CC00A27E6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Impicity;
+			productName = Impicity;
+			productReference = 3B5D99B8182EB6CC00A27E6C /* Impicity.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3B5D99D8182EB6CD00A27E6C /* ImpicityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B5D99ED182EB6CD00A27E6C /* Build configuration list for PBXNativeTarget "ImpicityTests" */;
+			buildPhases = (
+				3B5D99D5182EB6CD00A27E6C /* Sources */,
+				3B5D99D6182EB6CD00A27E6C /* Frameworks */,
+				3B5D99D7182EB6CD00A27E6C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3B5D99DF182EB6CD00A27E6C /* PBXTargetDependency */,
+			);
+			name = ImpicityTests;
+			productName = ImpicityTests;
+			productReference = 3B5D99D9182EB6CD00A27E6C /* ImpicityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3B5D99B0182EB6CC00A27E6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Tony Smith";
+				TargetAttributes = {
+					3B5D99B7182EB6CC00A27E6C = {
+						DevelopmentTeam = Y5J3K52DNA;
+					};
+					3B5D99D8182EB6CD00A27E6C = {
+						TestTargetID = 3B5D99B7182EB6CC00A27E6C;
+					};
+				};
+			};
+			buildConfigurationList = 3B5D99B3182EB6CC00A27E6C /* Build configuration list for PBXProject "Impicity" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3B5D99AF182EB6CC00A27E6C;
+			productRefGroup = 3B5D99B9182EB6CC00A27E6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3B5D99B7182EB6CC00A27E6C /* Impicity */,
+				3B5D99D8182EB6CD00A27E6C /* ImpicityTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3B5D99B6182EB6CC00A27E6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B2E349E182EE861001062E9 /* imp.png in Resources */,
+				3B5D99D4182EB6CC00A27E6C /* Images.xcassets in Resources */,
+				3B5D99C6182EB6CC00A27E6C /* InfoPlist.strings in Resources */,
+				3B5D99CF182EB6CC00A27E6C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B5D99D7182EB6CD00A27E6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B5D99E5182EB6CD00A27E6C /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3B5D99B4182EB6CC00A27E6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B5D99D2182EB6CC00A27E6C /* ViewController.m in Sources */,
+				3B5D99CC182EB6CC00A27E6C /* AppDelegate.m in Sources */,
+				3B2E349C182EE5C5001062E9 /* AboutViewController.m in Sources */,
+				3B5D99C8182EB6CC00A27E6C /* main.m in Sources */,
+				3B1B96A518E0D9BB00151B04 /* ImpTableViewController.m in Sources */,
+				3B1B96A218E0C3AD00151B04 /* ImpicityImp.m in Sources */,
+				3B0C5B7518E3165600C7D057 /* ImpList.m in Sources */,
+				3B32809218E2E8D9003301ED /* ImpIDViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3B5D99D5182EB6CD00A27E6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B5D99E7182EB6CD00A27E6C /* ImpicityTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3B5D99DF182EB6CD00A27E6C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3B5D99B7182EB6CC00A27E6C /* Impicity */;
+			targetProxy = 3B5D99DE182EB6CD00A27E6C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3B5D99C4182EB6CC00A27E6C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B5D99C5182EB6CC00A27E6C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3B5D99CD182EB6CC00A27E6C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B5D99CE182EB6CC00A27E6C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3B5D99E3182EB6CD00A27E6C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3B5D99E4182EB6CD00A27E6C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3B5D99E8182EB6CD00A27E6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3B5D99E9182EB6CD00A27E6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3B5D99EB182EB6CD00A27E6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Impicity/Impicity-Prefix.pch";
+				INFOPLIST_FILE = "Impicity/Impicity-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3B5D99EC182EB6CD00A27E6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Impicity/Impicity-Prefix.pch";
+				INFOPLIST_FILE = "Impicity/Impicity-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3B5D99EE182EB6CD00A27E6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Impicity.app/Impicity";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Impicity/Impicity-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ImpicityTests/ImpicityTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3B5D99EF182EB6CD00A27E6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Impicity.app/Impicity";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Impicity/Impicity-Prefix.pch";
+				INFOPLIST_FILE = "ImpicityTests/ImpicityTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B5D99B3182EB6CC00A27E6C /* Build configuration list for PBXProject "Impicity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B5D99E8182EB6CD00A27E6C /* Debug */,
+				3B5D99E9182EB6CD00A27E6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B5D99EA182EB6CD00A27E6C /* Build configuration list for PBXNativeTarget "Impicity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B5D99EB182EB6CD00A27E6C /* Debug */,
+				3B5D99EC182EB6CD00A27E6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3B5D99ED182EB6CD00A27E6C /* Build configuration list for PBXNativeTarget "ImpicityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3B5D99EE182EB6CD00A27E6C /* Debug */,
+				3B5D99EF182EB6CD00A27E6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3B5D99B0182EB6CC00A27E6C /* Project object */;
+}
