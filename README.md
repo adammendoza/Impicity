@@ -8,3 +8,6 @@ The interaction between a selected imp and its agent are managed in `ViewControl
 
 Other objects maintain and manage a list of imps, which is preserved between application closures. These are generic to whatever interaction a given developer requires between an imp and its agent, and the UI that controls that interaction.
 
+Basic icon and splash screen graphics are provided; developers should substitute these with their own.
+
+Please note that the Electric Imp logo graphic is owned by Electric Imp, Inc. and not covered by the terms of the licence under which the rest of this software is offered.
