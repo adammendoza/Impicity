@@ -10,4 +10,4 @@ Other objects maintain and manage a list of imps, which is preserved between app
 
 Basic icon and splash screen graphics are provided; developers should substitute these with their own.
 
-Please note that the Electric Imp logo graphic is owned by Electric Imp, Inc. and not covered by the terms of the licence under which the rest of this software is offered.
+Please note that the Electric Imp logo graphic is owned by [Electric Imp, Inc](http://electricimp.com/). and not covered by the terms of the licence under which the rest of this software is offered.
