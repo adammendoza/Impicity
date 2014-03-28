@@ -165,7 +165,7 @@
                                     <constraint firstAttribute="width" constant="51" id="j1i-Ss-uHE"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <state key="normal" title="Imps...">
+                                <state key="normal" title="imps...">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -278,7 +278,7 @@
                             <textView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" editable="NO" textAlignment="center" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tu4-a0-Sbt">
                                 <rect key="frame" x="20" y="47" width="280" height="364"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                <string key="text">IMPICITY is a test bed application for Electric Imp’s Imp ‘Internet of Things’ connected controller device. 
+                                <string key="text">IMPICITY is a test bed application for Electric Imp’s imp ‘Internet of Things’ connected controller device. 
 
 Version 1.1
 
@@ -307,7 +307,7 @@ Imp icon © Electric Imp 2012</string>
             </objects>
             <point key="canvasLocation" x="1367" y="26"/>
         </scene>
-        <!--Imp Table View Controller - Imps-->
+        <!--Imp Table View Controller - imps-->
         <scene sceneID="7qZ-KD-cER">
             <objects>
                 <tableViewController id="ZPH-Pq-F6M" customClass="ImpTableViewController" sceneMemberID="viewController">
@@ -350,7 +350,7 @@ Imp icon © Electric Imp 2012</string>
                             <outlet property="delegate" destination="ZPH-Pq-F6M" id="EYu-Yi-Stf"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Imps" id="1UO-7I-EZp">
+                    <navigationItem key="navigationItem" title="imps" id="1UO-7I-EZp">
                         <barButtonItem key="leftBarButtonItem" style="done" id="QOu-U3-FJB">
                             <button key="customView" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="FFb-dU-e9O">
                                 <rect key="frame" x="16" y="5" width="71" height="33"/>
@@ -390,7 +390,7 @@ Imp icon © Electric Imp 2012</string>
                                 <rect key="frame" x="20" y="99" width="280" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="USQ-9U-O3V"/>
+                                    <constraint firstAttribute="height" constant="30" id="h66-IJ-HBJ"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
@@ -399,22 +399,22 @@ Imp icon © Electric Imp 2012</string>
                                 </connections>
                             </textField>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Name" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dha-co-euE">
-                                <rect key="frame" x="20" y="70" width="46" height="21"/>
+                                <rect key="frame" x="26" y="70" width="46" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="46" id="Yc6-ch-Lqv"/>
-                                    <constraint firstAttribute="height" constant="21" id="yIg-KX-YAj"/>
+                                    <constraint firstAttribute="height" constant="21" id="0FJ-II-Wjd"/>
+                                    <constraint firstAttribute="width" constant="46" id="Gx8-lB-omB"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Server ID Code" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u5w-sh-8rq">
-                                <rect key="frame" x="20" y="137" width="118" height="21"/>
+                                <rect key="frame" x="26" y="137" width="118" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="118" id="2o1-lK-Afz"/>
-                                    <constraint firstAttribute="height" constant="21" id="dJT-lL-khb"/>
+                                    <constraint firstAttribute="width" constant="118" id="kbW-6q-2le"/>
+                                    <constraint firstAttribute="height" constant="21" id="tBG-Py-OZM"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
@@ -423,7 +423,7 @@ Imp icon © Electric Imp 2012</string>
                                 <rect key="frame" x="20" y="166" width="280" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="30" id="2Kw-GO-w0O"/>
+                                    <constraint firstAttribute="height" constant="30" id="w4m-g7-Kf6"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" returnKeyType="done" enablesReturnKeyAutomatically="YES"/>
@@ -431,11 +431,11 @@ Imp icon © Electric Imp 2012</string>
                                     <outlet property="delegate" destination="vpU-EA-Wir" id="Z8t-HS-zUR"/>
                                 </connections>
                             </textField>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Imp Information" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qx4-z0-2aK">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="impformation" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qx4-z0-2aK">
                                 <rect key="frame" x="20" y="28" width="280" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="21" id="vYh-sA-9In"/>
+                                    <constraint firstAttribute="height" constant="21" id="AyG-mA-wlu"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="highlightedColor"/>
@@ -444,11 +444,11 @@ Imp icon © Electric Imp 2012</string>
                                 <rect key="frame" x="89" y="266" width="142" height="35"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="142" id="5gj-08-Cnr"/>
-                                    <constraint firstAttribute="height" constant="35" id="e3e-tY-8XP"/>
+                                    <constraint firstAttribute="width" constant="142" id="nak-VW-NUt"/>
+                                    <constraint firstAttribute="height" constant="35" id="zKp-Iy-ruP"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="19"/>
-                                <state key="normal" title="Save Imp Details">
+                                <state key="normal" title="Save imp Details">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -458,21 +458,21 @@ Imp icon © Electric Imp 2012</string>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="Qx4-z0-2aK" firstAttribute="leading" secondItem="BI2-3b-03H" secondAttribute="leading" constant="20" id="1Hq-GD-5p5"/>
-                            <constraint firstItem="u5w-sh-8rq" firstAttribute="top" secondItem="Rji-eh-On7" secondAttribute="bottom" constant="8" id="7VJ-7w-EWD"/>
-                            <constraint firstItem="Rji-eh-On7" firstAttribute="leading" secondItem="BI2-3b-03H" secondAttribute="leading" constant="20" id="EAO-oV-PCX"/>
-                            <constraint firstAttribute="trailing" secondItem="Xpo-Iv-oZP" secondAttribute="trailing" constant="20" id="ENn-iZ-NsC"/>
-                            <constraint firstItem="Qx4-z0-2aK" firstAttribute="top" secondItem="WwT-6c-Bty" secondAttribute="bottom" constant="8" id="KTW-PZ-4JV"/>
-                            <constraint firstItem="u5w-sh-8rq" firstAttribute="leading" secondItem="BI2-3b-03H" secondAttribute="leading" constant="20" id="Rvg-A9-7ic"/>
-                            <constraint firstItem="Xpo-Iv-oZP" firstAttribute="top" secondItem="u5w-sh-8rq" secondAttribute="bottom" constant="8" id="S8f-AA-xQM"/>
-                            <constraint firstItem="Rji-eh-On7" firstAttribute="top" secondItem="dha-co-euE" secondAttribute="bottom" constant="8" id="SSg-Eq-ROp"/>
-                            <constraint firstAttribute="trailing" secondItem="Qx4-z0-2aK" secondAttribute="trailing" constant="20" id="UI6-aa-hOS"/>
-                            <constraint firstItem="dha-co-euE" firstAttribute="leading" secondItem="BI2-3b-03H" secondAttribute="leading" constant="20" id="Un6-pN-fb5"/>
-                            <constraint firstItem="7cg-Rp-aUO" firstAttribute="top" secondItem="Xpo-Iv-oZP" secondAttribute="bottom" constant="70" id="fKN-he-Vco"/>
-                            <constraint firstItem="dha-co-euE" firstAttribute="top" secondItem="Qx4-z0-2aK" secondAttribute="bottom" constant="21" id="iUQ-uB-eAL"/>
-                            <constraint firstItem="Xpo-Iv-oZP" firstAttribute="leading" secondItem="BI2-3b-03H" secondAttribute="leading" constant="20" id="nnM-pn-HGB"/>
-                            <constraint firstAttribute="centerX" secondItem="7cg-Rp-aUO" secondAttribute="centerX" id="pkj-VI-foc"/>
-                            <constraint firstAttribute="trailing" secondItem="Rji-eh-On7" secondAttribute="trailing" constant="20" id="ryL-IC-KCM"/>
+                            <constraint firstAttribute="centerX" secondItem="7cg-Rp-aUO" secondAttribute="centerX" id="ARJ-0G-bcH"/>
+                            <constraint firstItem="dha-co-euE" firstAttribute="leading" secondItem="BI2-3b-03H" secondAttribute="leading" constant="26" id="Akn-Mq-Gak"/>
+                            <constraint firstAttribute="trailing" secondItem="Rji-eh-On7" secondAttribute="trailing" constant="20" id="GrT-Mk-pJz"/>
+                            <constraint firstItem="Rji-eh-On7" firstAttribute="top" secondItem="dha-co-euE" secondAttribute="bottom" constant="8" id="HNo-H3-5vA"/>
+                            <constraint firstItem="u5w-sh-8rq" firstAttribute="leading" secondItem="BI2-3b-03H" secondAttribute="leading" constant="26" id="JVT-Wp-rnH"/>
+                            <constraint firstItem="Qx4-z0-2aK" firstAttribute="top" secondItem="BI2-3b-03H" secondAttribute="top" constant="28" id="Kvj-Ol-fW2"/>
+                            <constraint firstAttribute="trailing" secondItem="Qx4-z0-2aK" secondAttribute="trailing" constant="20" id="TK2-9L-EKE"/>
+                            <constraint firstItem="Xpo-Iv-oZP" firstAttribute="leading" secondItem="BI2-3b-03H" secondAttribute="leading" constant="20" id="Ue7-BW-YGg"/>
+                            <constraint firstItem="u5w-sh-8rq" firstAttribute="top" secondItem="Rji-eh-On7" secondAttribute="bottom" constant="8" id="bYe-t4-IBo"/>
+                            <constraint firstItem="Qx4-z0-2aK" firstAttribute="leading" secondItem="BI2-3b-03H" secondAttribute="leading" constant="20" id="eFr-xM-dRa"/>
+                            <constraint firstItem="Xpo-Iv-oZP" firstAttribute="top" secondItem="u5w-sh-8rq" secondAttribute="bottom" constant="8" id="eM3-nR-NjC"/>
+                            <constraint firstItem="Rji-eh-On7" firstAttribute="leading" secondItem="BI2-3b-03H" secondAttribute="leading" constant="20" id="hMV-ig-Hr3"/>
+                            <constraint firstAttribute="trailing" secondItem="Xpo-Iv-oZP" secondAttribute="trailing" constant="20" id="jjS-JA-bkr"/>
+                            <constraint firstItem="7cg-Rp-aUO" firstAttribute="top" secondItem="Xpo-Iv-oZP" secondAttribute="bottom" constant="70" id="kwT-Xy-qBU"/>
+                            <constraint firstItem="dha-co-euE" firstAttribute="top" secondItem="Qx4-z0-2aK" secondAttribute="bottom" constant="21" id="pek-IH-2Ny"/>
                         </constraints>
                     </view>
                     <connections>
